@@ -8,4 +8,7 @@ res.sendFile() and res.render() both are different
 //The render method works when you have a templating engine, such as Handlebars or Jade, in use.
 //The sendfile method, on the other hand, simply sends a given file to the client, regardless of the type and contents of the file
 
+
+app.set('view engine', 'ejs');
+//the above one is required for render file(like if file will be saving index.ejs)
 .
