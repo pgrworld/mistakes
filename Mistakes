@@ -1,0 +1,11 @@
+//middlewares
+app.use(express.static('public'));
+//at the place of 'public' incase if we placed any other name then it not printed 
+//By default express does not allow to serve with static files so we need to enable it by using=> app.use(express.static('public'));
+
+
+res.sendFile() and res.render() both are different
+//The render method works when you have a templating engine, such as Handlebars or Jade, in use.
+//The sendfile method, on the other hand, simply sends a given file to the client, regardless of the type and contents of the file
+
+.
