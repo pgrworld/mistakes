@@ -11,4 +11,6 @@ res.sendFile() and res.render() both are different
 
 app.set('view engine', 'ejs');
 //the above one is required for render file(like if file will be saving index.ejs)
+
+4.// if i declared any array inside the function it will execute at the time of calling the function every time it will create a new empty array.
 .
